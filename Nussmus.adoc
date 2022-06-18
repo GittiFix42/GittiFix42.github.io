@@ -1,17 +1,16 @@
 == Nussmus
 
-image:Nussmus.jpeg[Rezeptbild,1200,200,float="center",align="center"]
-
-
 [frame=none]
 [grid=none]
-[cols="^5,9"]
+[cols="^5,5"]
 
 |===
 
-| Zutaten:
+|image:Nussmus.jpeg[Rezeptbild,1200,200,float="center",align="center"]
 
-| 350g Cashews oder Walnüsse, Mandeln oder eine Mischung davon +
+
+| ** Zutaten: ** +
+350g Cashews oder Walnüsse, Mandeln oder eine Mischung davon +
 
 |===
 
