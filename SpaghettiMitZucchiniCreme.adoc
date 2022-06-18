@@ -1,5 +1,8 @@
 == Spaghetti mit Zucchini-Käse-Creme
 
+image:ZucchiniCreme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
+
+
 [frame=none]
 [grid=none]
 [cols="^5,9"]
@@ -18,7 +21,6 @@ eventuell Parmesan oder anderen Reibekäse als Topping +
 
 |===
 
-image:ZucchiniCreme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
 
 Die Zucchini putzen und in kleine Stücke schneiden. +
 Wasser für die Nudeln aufsetzen +
