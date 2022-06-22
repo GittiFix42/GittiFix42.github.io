@@ -5,5 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world!"
+      - run: pwd
       - run: echo {{defaultContext}}
       - run: /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
