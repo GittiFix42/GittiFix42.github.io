@@ -6,6 +6,7 @@ jobs:
     steps:
       - run: echo "Hello world!"
       - run: pwd
-      - run: ls -altr ../
+      - run: ls -altr ../..
+      - run: ls -altr ../../..
       - run: echo {{defaultContext}}
       - run: /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
