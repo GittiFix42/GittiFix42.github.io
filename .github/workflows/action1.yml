@@ -4,4 +4,4 @@ jobs:
   ersterversuch:
     runs-on: ubuntu-latest
     steps:
-      - run: ./makefile.sh
+      - run: echo "Hello world!"
