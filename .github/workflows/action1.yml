@@ -1,0 +1,6 @@
+name: action1
+on: [push]
+jobs:
+  ersterversuch:
+    steps:
+      - run: makefile.sh
