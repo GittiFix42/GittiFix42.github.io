@@ -1,5 +1,7 @@
 == Spaghetti mit Zucchini-Käse-Creme
 
+**Ein Rezept von Bieke Meller ** +
+
 image:ZucchiniCreme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
 
 

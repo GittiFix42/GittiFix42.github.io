@@ -10,4 +10,4 @@ for file in ./*.adoc ; do
 	done
 done
 jetzt=$(date)
-git commit -m "Generate all PDF at $jetzt"
+git commit -m "Generate all PDF at $jetzt" .
