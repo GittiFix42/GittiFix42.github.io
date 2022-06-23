@@ -5,7 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # asciidoktor installieren
-      - run: sudo apt-get install ruby
+      - run: sudo apt-get install software-properties-common
+      - run: sudo apt-add-repository -y ppa:rael-gc/rvm
+      - run: sudo apt-get update
+      - run: sudo apt-get install rvm
       - run: sudo apt-get install asciidoctor
       - run: gem install asciidoctor-pdf
       # gets the latest repo
