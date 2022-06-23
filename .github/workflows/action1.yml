@@ -7,5 +7,5 @@ jobs:
       # gets the latest repo
       - uses: actions/checkout@v3
       - name: Erstmal sehen, dann mal schaun
-        run: pwd; ls -altr; bash /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
+        run: bash makefile.sh
       
