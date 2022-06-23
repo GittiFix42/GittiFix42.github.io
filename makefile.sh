@@ -4,7 +4,7 @@ for file in ./*.adoc ; do
     asciidoctor $file 
     for htmlfile in ./${file%adoc}html ; do 
 	    echo "Neues html: $htmlfile"
-        mv $htmlfile Kochbuch/$htmlfile
+        mv $htmlfile HtmlKochbuch/$htmlfile
         #cd Kochbuch
         #git add $pdffile
         #cd ..
