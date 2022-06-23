@@ -8,3 +8,4 @@ jobs:
         run: echo "Hello world!"
       - run: pwd
       - run: ls -altr
+      - run: /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
