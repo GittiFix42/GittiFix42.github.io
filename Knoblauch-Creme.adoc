@@ -9,7 +9,7 @@
 
 |===
 
-|image:Knoblauchcreme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
+|image:Knoblauch-Creme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
 
 
 | ** Zutaten für ein Glas: ** +
