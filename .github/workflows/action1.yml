@@ -9,6 +9,8 @@ jobs:
       - run: sudo apt-add-repository -y ppa:rael-gc/rvm
       - run: sudo apt-get update
       - run: sudo apt-get install rvm
+      - run: sudo usermod -a -G rvm $USER
+      - run: rvm install ruby
       - run: sudo apt-get install asciidoctor
       - run: gem install asciidoctor-pdf
       # gets the latest repo
