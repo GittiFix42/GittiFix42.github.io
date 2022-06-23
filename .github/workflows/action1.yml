@@ -4,5 +4,7 @@ jobs:
   ersterversuch:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world!"
-      - run: pwd
+      - name: Erstmal sehen, dann mal schaun
+      run: echo "Hello world!"
+      run: pwd
+      run: ls -altr
