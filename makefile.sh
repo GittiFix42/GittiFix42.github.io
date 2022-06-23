@@ -6,9 +6,10 @@ for file in ./*.adoc ; do
     for htmlfile in ./${file%adoc}html ; do 
 	    echo "Neues html: $htmlfile"
         mv $htmlfile HtmlKochbuch/$htmlfile
-        #cd Kochbuch
-        #git add $pdffile
-        #cd ..
+	done
+    for jpegfile in ./${file%adoc}jpeg ; do 
+	    echo "Neues html: $jpegfile"
+        mv $jpegfile HtmlKochbuch/$jpegfile
 	done
 done
 #jetzt=$(date)
