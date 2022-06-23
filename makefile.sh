@@ -7,10 +7,12 @@ for file in ./*.adoc ; do
 	    echo "Neues html: $htmlfile"
         mv $htmlfile HtmlKochbuch/$htmlfile
 	done
-    for jpegfile in ./${file%adoc}jpeg ; do 
-	    echo "Neues html: $jpegfile"
-        mv $jpegfile HtmlKochbuch/$jpegfile
-	done
+    if [-e ./${file%adoc}jpeg] then
+        for jpegfile in ./${file%adoc}jpeg ; do 
+	        echo "jpeg: $jpegfile"
+            mv $jpegfile HtmlKochbuch/$jpegfile
+	    done
+    fi
 done
 #jetzt=$(date)
 #git commit -m "Generate all PDF at $jetzt" .
