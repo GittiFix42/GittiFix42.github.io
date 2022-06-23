@@ -1,11 +1,11 @@
 name: action1
 on: [push]
 jobs:
-  ersterversuch:
+  KochbuchBauen:
     runs-on: ubuntu-latest
     steps:
+      # gets the latest repo
+      - uses: actions/checkout@v3
       - name: Erstmal sehen, dann mal schaun
-        run: echo "Hello world!"
-      - run: pwd
-      - run: ls -altr
-      - run: /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
+        run: bash /Users/biekefix/Documents/GitHub/Rezepte/makefile.sh
+      
