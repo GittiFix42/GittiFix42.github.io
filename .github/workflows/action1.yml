@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Erstmal sehen, dann mal schaun
-      run: echo "Hello world!"
-      run: pwd
-      run: ls -altr
+        run: echo "Hello world!"
+              pwd
+              ls -altr
