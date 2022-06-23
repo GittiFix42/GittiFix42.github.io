@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir HtmlKochbuch
 for file in ./*.adoc ; do 
     #asciidoctor-pdf $file -a pdf-theme=my-theme.yml
     asciidoctor $file 
