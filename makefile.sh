@@ -12,7 +12,3 @@ for jpegfile in ./*.jpeg ; do
     echo "jpeg: $jpegfile"
     mv $jpegfile HtmlKochbuch/$jpegfile
 done
-for htmlfile in ./*.html ; do 
-    echo "html: $htmlfile"
-    mv $htmlfile HtmlKochbuch/$htmlfile
-done
