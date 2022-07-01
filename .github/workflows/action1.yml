@@ -11,8 +11,10 @@ jobs:
       - name: Erstmal sehen, dann mal schaun
         run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
       # jetzt noch in das richtige Verzeichnis kopieren
-      - run: docker run --rm -v $(pwd):/documents/ mkdir HtmlKochbuch
-      - run: docker run --rm -v $(pwd):/documents/ mv *.html HtmlKochbuch
+      - run: pwd
+      - run: ls -altr
+      - run: mkdir HtmlKochbuch
+      - run: mv *.html HtmlKochbuch
       # alle Ergebnisse ins html-Verzeichnis kopieren
       #- run: bash makefile.sh
       # und ab damit in die artifacts:
