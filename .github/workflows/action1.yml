@@ -11,7 +11,7 @@ jobs:
       - name: Erstmal sehen, dann mal schaun
         run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
       # jetzt noch in das richtige Verzeichnis kopieren
-      - run: docker run -it ubuntu bash
+      - run: docker run -rm -v ubuntu bash
       - run: docker ps
       - run: ls -altr
       - run: mkdir HtmlKochbuch
