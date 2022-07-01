@@ -9,12 +9,12 @@ jobs:
       # gets the latest repo
       - uses: actions/checkout@v3
       #- name: Erstmal sehen, dann mal schaun
-      #  run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
+        run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
       # jetzt noch in das richtige Verzeichnis kopieren
-      #- run: mkdir HtmlKochbuch
-      #- run: mv *.html HtmlKochbuch
+      - run: mkdir HtmlKochbuch
+      - run: mv *.html HtmlKochbuch
       # alle Ergebnisse ins html-Verzeichnis kopieren
-      - run: bash makefile.sh
+      #- run: bash makefile.sh
       # und ab damit in die artifacts:
       - uses: actions/upload-artifact@v3
         with:
