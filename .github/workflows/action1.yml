@@ -8,7 +8,7 @@ jobs:
       - run: sudo apt-get install asciidoctor
       # gets the latest repo
       - uses: actions/checkout@v3
-      #- name: Erstmal sehen, dann mal schaun
+      - name: Erstmal sehen, dann mal schaun
         run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
       # jetzt noch in das richtige Verzeichnis kopieren
       - run: docker run --rm -v $(pwd):/documents/ mkdir HtmlKochbuch
