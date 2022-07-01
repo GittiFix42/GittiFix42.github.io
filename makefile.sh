@@ -5,10 +5,10 @@ for file in ./*.adoc ; do
 #    asciidoctor $file 
     docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf $file
     for htmlfile in ./${file%adoc}html ; do 
-	    docker run pwd
-        docker run ls -altr
+	    docker --rm -v $(pwd):/documents/ run pwd
+        docker --rm -v $(pwd):/documents/ run ls -altr
         echo "Neues html: $htmlfile"
-        docker run mv $htmlfile HtmlKochbuch/$htmlfile
+        docker --rm -v $(pwd):/documents/ run mv $htmlfile HtmlKochbuch/$htmlfile
 	done
 done
 for jpegfile in ./*.jpeg ; do 
