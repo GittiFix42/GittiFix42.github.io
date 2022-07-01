@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # asciidoktor installieren
-      - run: sudo apt-get install asciidoctor
+      #- run: sudo apt-get install asciidoctor
       # gets the latest repo
       - uses: actions/checkout@v3
       #- name: Erstmal sehen, dann mal schaun
