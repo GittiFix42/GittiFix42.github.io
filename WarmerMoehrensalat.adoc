@@ -1,6 +1,16 @@
 == Warmer Möhrensalat
 
-**Ein Rezept von Bieke Meller ** +
+
+[frame=none]
+[grid=none]
+[cols="12,>12",width="100%"]
+
+|===
+
+| |**Ein Rezept von Bieke Meller ** +
+
+|===
+
 
 Man nehme eine Handvoll Möhren, putze sie und raspele sie grob. +
 Anschließend dünste man sie in Olivenöl oder Rapsöl. +

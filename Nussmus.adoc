@@ -1,6 +1,14 @@
 == Nussmus
 
-**Ein Rezept von Bieke Meller ** +
+[frame=none]
+[grid=none]
+[cols="12,>12",width="100%"]
+
+|===
+
+| |**Nach einem Rezept von https://fraujanik.com/[*Frau Janik*] ** +
+
+|===
 
 
 [frame=none]

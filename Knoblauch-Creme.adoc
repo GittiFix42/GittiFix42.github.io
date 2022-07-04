@@ -1,7 +1,14 @@
 == Knoblauch-Creme
  
-**Ein Rezept von Bieke Meller ** +
+[frame=none]
+[grid=none]
+[cols="12,>12",width="100%"]
 
+|===
+
+| |**Ein Rezept von Bieke Meller ** +
+
+|===
 
 [frame=none]
 [grid=none]

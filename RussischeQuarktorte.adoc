@@ -1,6 +1,15 @@
 == Russische Quarktorte
 
-**Ein Rezept von Bieke Meller ** +
+
+[frame=none]
+[grid=none]
+[cols="12,>12",width="100%"]
+
+|===
+
+| |**Ein altes Rezept aus Wolfen abgewandelt von Bieke Meller ** +
+
+|===
 
 image:RussischeQuarktorte.jpeg[Rezeptbild,800,600,float="center",align="center"]
 

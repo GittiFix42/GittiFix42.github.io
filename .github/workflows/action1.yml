@@ -8,9 +8,6 @@ jobs:
       - run: sudo apt-get install asciidoctor
       # gets the latest repo
       - uses: actions/checkout@v3
-      #- name: Erstmal sehen, dann mal schaun
-      #  run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
-
       # HTML-Dateien generieren
       - run: bash makefile.sh
       # und ab damit in die artifacts:
