@@ -1,13 +1,12 @@
 == Russische Quarktorte
 
-
 [frame=none]
 [grid=none]
 [cols="12,>12",width="100%"]
 
 |===
 
-| |**Ein altes Rezept aus Wolfen abgewandelt von Bieke Meller ** +
+| |_Ein altes Rezept aus Wolfen abgewandelt von Bieke Meller_ +
 
 |===
 
