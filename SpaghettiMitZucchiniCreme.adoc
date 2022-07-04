@@ -2,7 +2,7 @@
 
 **Ein Rezept von Bieke Meller ** +
 
-image:SpaghettiMitZucchiniCreme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
+image:SpaghettiMitZucchiniCreme.jpeg[Rezeptbild,800,600,float="center",align="center"]
 
 
 [frame=none]

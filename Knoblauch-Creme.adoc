@@ -9,7 +9,7 @@
 
 |===
 
-|image:Knoblauch-Creme.jpeg[Rezeptbild,1200,200,float="center",align="center"]
+|image:Knoblauch-Creme.jpeg[Rezeptbild,300,400,float="center",align="center"]
 
 
 | ** Zutaten für ein Glas: ** +
@@ -19,7 +19,6 @@ ca. 250g Frischkäse +
 Kräuter und Gewürze nach Geschmack +
 
 |===
-
 
 Den Knoblauch fein reiben und alle Zutaten miteinander verrühren. +
 Das ist alles! +

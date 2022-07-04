@@ -8,16 +8,11 @@ jobs:
       - run: sudo apt-get install asciidoctor
       # gets the latest repo
       - uses: actions/checkout@v3
-      - name: Erstmal sehen, dann mal schaun
-        run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
-      # jetzt noch in das richtige Verzeichnis kopieren
-      - run: docker run -rm -v ubuntu bash
-      - run: docker ps
-      - run: ls -altr
-      - run: mkdir HtmlKochbuch
-      #- run: mv *.html HtmlKochbuch
-      # alle Ergebnisse ins html-Verzeichnis kopieren
-      #- run: bash makefile.sh
+      #- name: Erstmal sehen, dann mal schaun
+      #  run: docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf *.adoc
+
+      # HTML-Dateien generieren
+      - run: bash makefile.sh
       # und ab damit in die artifacts:
       - uses: actions/upload-artifact@v3
         with:

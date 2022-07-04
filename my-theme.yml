@@ -2,10 +2,10 @@ font:
   catalog:
     # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
     Noto Serif:
-      normal: /Users/biekefix/Documents/Projekte/roboto-normal.ttf
-      italic: /Users/biekefix/Documents/Projekte/roboto-italic.ttf
-      bold: /Users/biekefix/Documents/Projekte/roboto-bold.ttf
-      bold_italic: /Users/biekefix/Documents/Projekte/roboto-bold_italic.ttf
+      normal: /Users/biekefix/Documents/GitHub/Rezepte/roboto-normal.ttf
+      italic: /Users/biekefix/Documents/GitHub/Rezepte/roboto-italic.ttf
+      bold: /Users/biekefix/Documents/GitHub/Rezepte/roboto-bold.ttf
+      bold_italic: /Users/biekefix/Documents/GitHub/Rezepte/roboto-bold_italic.ttf
           # M+ 1mn supports ASCII and the circled numbers used for conums
     M+ 1mn:
       normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf

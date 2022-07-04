@@ -2,7 +2,7 @@
 
 **Ein Rezept von Bieke Meller ** +
 
-image:RussischeQuarktorte.jpeg[Rezeptbild,1200,200,float="center",align="center"]
+image:RussischeQuarktorte.jpeg[Rezeptbild,800,600,float="center",align="center"]
 
 
 [frame=none]
